@@ -23,7 +23,7 @@ public class Ejercicio01 {
             }
             promedio=suma_nota/3;
             System.out.println("El promedio del alumno "+i+" es: "+promedio);
-            if (promedio>=11) {
+            if (promedio<10.5) {
                 System.out.println("El alumno DESAPROBÓ el curso.");
             }
             else{
